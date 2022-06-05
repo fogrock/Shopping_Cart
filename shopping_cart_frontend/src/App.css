@@ -1,0 +1,21 @@
+.mainButton {
+    margin-top: 20px;
+    float: right
+}
+
+.cartPostage {
+    padding-left: 880px;
+    font-family: Calibri;
+}
+
+.cartTotals {
+    padding-left: 880px;
+    font-family: Calibri;
+    font-weight: 700;
+}
+
+.paddedUpDown {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

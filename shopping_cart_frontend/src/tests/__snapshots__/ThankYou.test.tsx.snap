@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1mktp8m-MuiTypography-root"
+    >
+      Thank you.
+    </div>
+    <div
+      class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+    >
+      Your order was completed successfully
+    </div>
+    <span
+      class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom css-w5np7v-MuiTypography-root"
+    >
+      order id: 
+    </span>
+  </div>
+</DocumentFragment>
+`;
