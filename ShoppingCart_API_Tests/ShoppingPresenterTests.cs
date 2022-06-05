@@ -10,9 +10,9 @@ namespace ShoppingCart_API_Tests
             Assert.IsNotNull(products);
             Assert.AreEqual(10, products.Count());
             Assert.AreEqual("EUR", products.First(x => x.ProductName == "Craftright 300mm 2 Piece Quick Action Clamp").Price.CurrencyCode);
-            Assert.AreEqual(10.40m, products.First(x => x.ProductName == "Craftright 300mm 2 Piece Quick Action Clamp").Price.Amount);
+            Assert.AreEqual(10.36m, products.First(x => x.ProductName == "Craftright 300mm 2 Piece Quick Action Clamp").Price.Amount);
             Assert.AreEqual("EUR", products.First(x => x.ProductName == "NWS 250mm Left Aviation Snips").Price.CurrencyCode);
-            Assert.AreEqual(28.70m, products.First(x => x.ProductName == "NWS 250mm Left Aviation Snips").Price.Amount);
+            Assert.AreEqual(28.67m, products.First(x => x.ProductName == "NWS 250mm Left Aviation Snips").Price.Amount);
         }
 
         [TestMethod]
@@ -62,8 +62,8 @@ namespace ShoppingCart_API_Tests
             Assert.AreEqual(5, newCart.CartItems.First(x => x.Product.ProductName == "NWS 250mm Left Aviation Snips").Count);
             Assert.AreEqual("GBP", newCart.CartItems.First(x => x.Product.ProductName == "Craftright 300mm 2 Piece Quick Action Clamp").Product.Price.CurrencyCode);
             Assert.AreEqual("GBP", newCart.CartItems.First(x => x.Product.ProductName == "NWS 250mm Left Aviation Snips").Product.Price.CurrencyCode);
-            Assert.AreEqual(8.90m, newCart.CartItems.First(x => x.Product.ProductName == "Craftright 300mm 2 Piece Quick Action Clamp").Product.Price.Amount);
-            Assert.AreEqual(24.57m, newCart.CartItems.First(x => x.Product.ProductName == "NWS 250mm Left Aviation Snips").Product.Price.Amount);
+            Assert.AreEqual(8.87m, newCart.CartItems.First(x => x.Product.ProductName == "Craftright 300mm 2 Piece Quick Action Clamp").Product.Price.Amount);
+            Assert.AreEqual(24.54m, newCart.CartItems.First(x => x.Product.ProductName == "NWS 250mm Left Aviation Snips").Product.Price.Amount);
         }
 
         [TestMethod]
@@ -81,8 +81,8 @@ namespace ShoppingCart_API_Tests
             Assert.AreEqual(5, newCart.CartItems.First(x => x.Product.ProductName == "NWS 250mm Left Aviation Snips").Count);
             Assert.AreEqual("AUD", newCart.CartItems.First(x => x.Product.ProductName == "Craftright 300mm 2 Piece Quick Action Clamp").Product.Price.CurrencyCode);
             Assert.AreEqual("AUD", newCart.CartItems.First(x => x.Product.ProductName == "NWS 250mm Left Aviation Snips").Product.Price.CurrencyCode);
-            Assert.AreEqual(15.46m, newCart.CartItems.First(x => x.Product.ProductName == "Craftright 300mm 2 Piece Quick Action Clamp").Product.Price.Amount);
-            Assert.AreEqual(42.65m, newCart.CartItems.First(x => x.Product.ProductName == "NWS 250mm Left Aviation Snips").Product.Price.Amount);
+            Assert.AreEqual(15.40m, newCart.CartItems.First(x => x.Product.ProductName == "Craftright 300mm 2 Piece Quick Action Clamp").Product.Price.Amount);
+            Assert.AreEqual(42.60m, newCart.CartItems.First(x => x.Product.ProductName == "NWS 250mm Left Aviation Snips").Product.Price.Amount);
         }
 
         [TestMethod]
